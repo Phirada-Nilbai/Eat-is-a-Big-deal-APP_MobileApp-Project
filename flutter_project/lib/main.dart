@@ -1,8 +1,7 @@
-// ignore_for_file: library_private_types_in_public_api
-
-/* import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'appscreen/home_page.dart';
 import 'appscreen/eatraidee_page.dart';
+import 'appscreen/food_recommend.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const HomePage(),
       routes: {
-        '/eat': (context) => const EatPage(),
+        '/eat': (context) => const ListViewFood(),
         '/calculate': (context) => const CalculatePage(),
+        '/foodRecommend': (context) => FoodRecommendApp(),
       },
     );
   }
@@ -39,9 +39,9 @@ class CalculatePage extends StatelessWidget {
     );
   }
 }
- */
 
-import 'appscreen/food_recommend.dart';
+
+/* import 'appscreen/food_recommend.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -50,3 +50,4 @@ void main() {
     home: FoodRecommendApp(),
   ));
 }
+ */

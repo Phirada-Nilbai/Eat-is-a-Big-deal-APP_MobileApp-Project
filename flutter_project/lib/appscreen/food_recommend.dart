@@ -152,7 +152,7 @@ class FoodRecommendApp extends StatelessWidget {
             child: Center(
               child: ElevatedButton(
                 onPressed: () {
-                  // TODO: Add logic to randomize food recommendation
+                  Navigator.pushNamed(context, '/eat');
                 },
                 child: const Text('กลับไปสุ่ม'),
               ),
